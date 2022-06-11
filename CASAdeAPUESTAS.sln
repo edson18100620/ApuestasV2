@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASAdeAPUESTAS", "CASAdeAPUESTAS.csproj", "{E4B98747-3E48-4DD9-AED8-EC5954297CB8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CASAdeAPUESTAS.WEB", "..\CASAdeAPUESTAS.WEB\CASAdeAPUESTAS.WEB.csproj", "{678A6B0F-7F1A-4A39-B63E-D940C6F39C6D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E4B98747-3E48-4DD9-AED8-EC5954297CB8} = {E4B98747-3E48-4DD9-AED8-EC5954297CB8}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
